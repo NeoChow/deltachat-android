@@ -282,7 +282,7 @@ public class ProfileActivity extends PassphraseRequiredActionBarActivity
             return getString(contactId==DcContact.DC_CONTACT_ID_SELF? R.string.self : R.string.tab_contact);
           }
           else {
-            return getString(R.string.tab_members);
+            return getString(R.string.tab_group);
           }
 
         case TAB_GALLERY:
